@@ -3,6 +3,7 @@
 // let idade = 19;
 // var isGamer = false;
 // const nome = 'Carlos';
+
 // console.log(idade);
 
 // redeclaração
@@ -10,17 +11,19 @@
 // let idade = 30; // Erro: Não permite redeclaração
 // var isGamer = true;
 // const nome = 'João'; // Erro: Não permite redeclaração
+// console.log(isGamer);
 
 // reatribuição
 
 // console.log(idade);
 // idade = 29;
 // isGamer = false;
+// console.log(isGamer);
 // nome = 'Marcos';
 
 // Hoisting (Içamento / elevação) somente var
 
-// salgado = 9;
+// var salgado = 9;
 // console.log(salgado, pratinho);
 // var pratinho = 15;
 
@@ -46,8 +49,8 @@
 
 // function testeEscopo() {
 //     if (true) {
-//         let x = 10;
 //         var y = 20;
+//         let x = 10;
 //     }
 //     console.log(x)
 //     console.log(y)

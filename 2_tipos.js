@@ -23,6 +23,15 @@
 // let nome = 'Carlos';
 // let isGamer = false;
 
+// console.log("Nome: " + nome, "Idade: " + idade, "Joga? " + isGamer);
+// console.log('-----------------');
+// console.log(`
+//         Nome: ${nome},
+//         Idade: ${idade},
+//         Joga? ${isGamer}
+//     `);
+
+
 // console.log("Nome: " + nome, "Idade: " + idade, "Joga online? " + isGamer);
 // console.log(`
 //         Nome: ${nome},
@@ -32,10 +41,13 @@
 
 // Objetos
 
-// const carro = { marca: 'Fiat' };
-// console.log(carro);
+const carro = { marca: 'Fiat' };
+console.log(carro);
+console.log(carro.marca);
 
-// let numbers = [1, 2, 3, 4];
+let numbers = [1, 2, 3, 4];
+console.log(numbers);
+console.log(numbers[0]);
 
 
 // instanceof
